@@ -28,10 +28,13 @@ Building products at the intersection of **engineering, user experience, and bus
 ### 🛠 Tech stack
 
 <div align="center">
-
-<img src="https://skillicons.dev/icons?i=php,ts,js,python,pytorch,html,css,laravel,react,vite,docker,nginx,mysql,aws,linux,git,github,redis,kubernetes&perline=10&theme=dark" alt="PHP, TypeScript, JavaScript, Python, PyTorch, HTML, CSS, Laravel, React, Vite, Docker, Nginx, MySQL, AWS, Linux, Git, GitHub, Redis, Kubernetes" />
-
-<img src="https://raw.githubusercontent.com/kawaiy/kawaiy/main/assets/tencentcloud.svg" alt="Tencent Cloud" width="48" height="48" />
+  <div>
+    <img src="https://skillicons.dev/icons?i=php,ts,js,python,pytorch,html,css,laravel,react,vite&perline=10&theme=dark" alt="PHP, TypeScript, JavaScript, Python, PyTorch, HTML, CSS, Laravel, React, Vite" />
+  </div>
+  <div>
+    <img src="https://skillicons.dev/icons?i=docker,nginx,mysql,aws,linux,git,github,redis,kubernetes&perline=9&theme=dark" alt="Docker, Nginx, MySQL, AWS, Linux, Git, GitHub, Redis, Kubernetes" />
+    <img src="https://raw.githubusercontent.com/kawaiy/kawaiy/main/assets/tencentcloud.svg" width="48" height="48" alt="Tencent Cloud" />
+  </div>
 </div>
 
 ### 📊 GitHub at a glance
