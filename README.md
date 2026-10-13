@@ -24,22 +24,9 @@ Building products at the intersection of **engineering, user experience, and bus
 
 <div align="center">
 
-**Languages & Web**
-
-![Languages and web](https://skillicons.dev/icons?i=php,ts,js,python,html,css&theme=dark)
-
-**Frameworks & Infrastructure**
-
-![Frameworks](https://skillicons.dev/icons?i=laravel,react,vite,docker,nginx,mysql&theme=dark)
-
-**Cloud & Tools**
-
-![Cloud and tools](https://skillicons.dev/icons?i=aws,linux,git,github,redis,kubernetes&theme=dark)
+<img src="https://skillicons.dev/icons?i=php,ts,js,python,html,css,laravel,react,vite,docker,nginx,mysql,aws,linux,git,github,redis,kubernetes&perline=9&theme=dark" alt="PHP, TypeScript, JavaScript, Python, HTML, CSS, Laravel, React, Vite, Docker, Nginx, MySQL, AWS, Linux, Git, GitHub, Redis, Kubernetes" />
 
 <img src="https://raw.githubusercontent.com/kawaiy/kawaiy/main/assets/tencentcloud.svg" alt="Tencent Cloud" width="48" height="48" />
-
-**Tencent Cloud · EdgeOne**
-
 </div>
 
 ### 📊 GitHub at a glance
@@ -62,12 +49,9 @@ Building products at the intersection of **engineering, user experience, and bus
 
 <br />
 
-<img src="https://github-readme-stats.vercel.app/api?username=kawaiy&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" alt="Publicly available GitHub statistics" height="170" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kawaiy&layout=compact&theme=github_dark&hide_border=true&langs_count=8" alt="Languages in publicly accessible repositories" height="170" />
-
 </div>
 
-> **How to read these stats:** The overview is computed from GitHub's public contribution calendar (including anonymized private activity if GitHub makes it visible). The two smaller cards below use a third-party public-data service and may exclude private work. Language percentages do not measure proficiency. No private repository names, source code, or commit details are published here.
+> **About these stats:** The overview uses GitHub's publicly visible contribution calendar, including anonymized private contributions only when enabled in GitHub settings. Private repository names, code, and commit details are never accessed or published.
 
 ### 📈 Contribution activity
 
@@ -94,8 +78,6 @@ Building products at the intersection of **engineering, user experience, and bus
 | Visualization | Includes private repositories? | Privacy |
 | --- | --- | --- |
 | Contribution overview | Anonymous private activity only if publicly visible | Public calendar only; no additional token |
-| GitHub stats | Not guaranteed | Third-party public statistics |
-| Top languages | No private-source access | Publicly accessible language data |
 | Animated contribution calendar | Only anonymized calendar activity if enabled | No private repo names, files, or commits |
 
 
