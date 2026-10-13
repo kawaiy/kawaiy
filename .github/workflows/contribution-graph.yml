@@ -26,6 +26,14 @@ jobs:
             dist/contribution-light.svg?palette=github-light&color_snake=blue
             dist/contribution-dark.svg?palette=github-dark&color_snake=blue
 
+      - name: Check out profile scripts
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Generate privacy-safe overview (public calendar only)
+        run: python3 scripts/contribution_overview.py
+
       - name: Publish SVGs to output branch
         env:
           GH_TOKEN: ${{ github.token }}
@@ -44,7 +52,7 @@ jobs:
             git checkout --orphan output
           fi
           cp /tmp/profile-graph/*.svg .
-          git add contribution-light.svg contribution-dark.svg
+          git add contribution-light.svg contribution-dark.svg overview-light.svg overview-dark.svg
           if git diff --cached --quiet; then
             echo "No new SVG changes."
             exit 0
