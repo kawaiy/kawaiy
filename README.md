@@ -29,10 +29,11 @@ Building products at the intersection of **engineering, user experience, and bus
 
 <div align="center">
   <div>
-    <img src="https://skillicons.dev/icons?i=php,ts,js,python,pytorch,html,css,laravel,react,vite&perline=10&theme=dark" alt="PHP, TypeScript, JavaScript, Python, PyTorch, HTML, CSS, Laravel, React, Vite" />
+    <img src="https://skillicons.dev/icons?i=php,ts,js,python,pytorch,html,css,laravel,react,vite,unity&perline=11&theme=dark" alt="PHP, TypeScript, JavaScript, Python, PyTorch, HTML, CSS, Laravel, React, Vite, Unity" />
   </div>
   <div>
     <img src="https://skillicons.dev/icons?i=docker,nginx,mysql,aws,linux,git,github,redis,kubernetes&perline=9&theme=dark" alt="Docker, Nginx, MySQL, AWS, Linux, Git, GitHub, Redis, Kubernetes" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@master/icons/apache/apache-original.svg" width="48" height="48" alt="Apache HTTP Server" />
     <img src="https://raw.githubusercontent.com/kawaiy/kawaiy/main/assets/tencentcloud.svg" width="48" height="48" alt="Tencent Cloud" />
   </div>
 </div>
