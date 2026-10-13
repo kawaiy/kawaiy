@@ -29,9 +29,10 @@ Building products at the intersection of **engineering, user experience, and bus
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=php,ts,js,python,html,css,laravel,react,vite,docker,nginx,mysql,aws,linux,git,github,redis,kubernetes&perline=9&theme=dark" alt="PHP, TypeScript, JavaScript, Python, HTML, CSS, Laravel, React, Vite, Docker, Nginx, MySQL, AWS, Linux, Git, GitHub, Redis, Kubernetes" />
+<img src="https://skillicons.dev/icons?i=php,ts,js,python,pytorch,html,css,laravel,react,vite,docker,nginx,mysql,aws,linux,git,github,redis,kubernetes&perline=10&theme=dark" alt="PHP, TypeScript, JavaScript, Python, PyTorch, HTML, CSS, Laravel, React, Vite, Docker, Nginx, MySQL, AWS, Linux, Git, GitHub, Redis, Kubernetes" />
 
 <img src="https://raw.githubusercontent.com/kawaiy/kawaiy/main/assets/tencentcloud.svg" alt="Tencent Cloud" width="48" height="48" />
+<img src="https://raw.githubusercontent.com/kawaiy/kawaiy/main/assets/chainer.svg" alt="Chainer" width="48" height="48" />
 </div>
 
 ### 📊 GitHub at a glance
