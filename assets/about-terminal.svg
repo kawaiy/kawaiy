@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="134" viewBox="0 0 800 134" role="img" aria-labelledby="title desc">
+<title id="title">About kawaiy — animated terminal</title>
+<desc id="desc">Software engineering, cloud observability, AI, and indie game development.</desc>
+<defs>
+  <linearGradient id="surface" x2="1" y2="1"><stop stop-color="#111c2e"/><stop offset="1" stop-color="#0d1117"/></linearGradient>
+  <clipPath id="reveal"><rect x="44" y="46" width="0" height="50"><animate attributeName="width" values="0;705;705;0" keyTimes="0;0.24;0.76;1" dur="16s" repeatCount="indefinite" calcMode="discrete"/></rect></clipPath>
+</defs>
+<rect x="1" y="1" width="798" height="132" rx="14" fill="url(#surface)" stroke="#303d51"/>
+<circle cx="26" cy="25" r="6" fill="#f7768e"/><circle cx="47" cy="25" r="6" fill="#e0af68"/><circle cx="68" cy="25" r="6" fill="#9ece6a"/>
+<text x="400" y="29" fill="#8b949e" font-family="monospace" font-size="13" text-anchor="middle">kawaiy / about</text>
+<text x="25" y="74" fill="#7ee787" font-family="monospace" font-size="21">$</text>
+<g clip-path="url(#reveal)" font-family="monospace" font-size="21" fill="#d1e6ff">
+ <text x="45" y="74" opacity="0">Building thoughtful software and teams<animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.24;0.25;0.99;1" dur="16s" repeatCount="indefinite"/></text>
+ <text x="45" y="74" opacity="0">Exploring cloud, observability and AI<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.25;0.26;0.5;0.51" dur="8s" repeatCount="indefinite"/></text>
+</g>
+<text x="25" y="113" fill="#768ba7" font-family="monospace" font-size="14">Japan · Full-stack · Engineering leadership · Indie games</text>
+</svg>
