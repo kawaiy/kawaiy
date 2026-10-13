@@ -24,17 +24,35 @@ Building products at the intersection of **engineering, user experience, and bus
 
 <div align="center">
 
-![Languages](https://skillicons.dev/icons?i=php,ts,js,python,html,css&theme=dark)
+**Languages & Web**
+
+![Languages and web](https://skillicons.dev/icons?i=php,ts,js,python,html,css&theme=dark)
+
+**Frameworks & Infrastructure**
 
 ![Frameworks](https://skillicons.dev/icons?i=laravel,react,vite,docker,nginx,mysql&theme=dark)
 
+**Cloud & Tools**
+
 ![Cloud and tools](https://skillicons.dev/icons?i=aws,linux,git,github,redis,kubernetes&theme=dark)
+
+![Tencent Cloud](https://img.shields.io/badge/Tencent%20Cloud-Cloud%20%26%20EdgeOne-006EFF?style=for-the-badge)
 
 </div>
 
 ### 📊 GitHub at a glance
 
 <div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kawaiy/kawaiy/output/overview-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kawaiy/kawaiy/output/overview-light.svg" />
+  <img alt="Rolling contribution totals, active days, streaks, and monthly activity from GitHub's public calendar" src="https://raw.githubusercontent.com/kawaiy/kawaiy/output/overview-dark.svg" width="100%" />
+</picture>
+
+<sub>Updated daily through GitHub Actions; includes only contributions visible on the public calendar, including anonymous private activity if enabled in GitHub settings. Not a private repository audit.</sub>
+
+<br /><br />
 
 [![GitHub followers](https://img.shields.io/github/followers/kawaiy?style=for-the-badge&logo=github&label=Followers&color=58a6ff)](https://github.com/kawaiy?tab=followers)
 [![Profile](https://img.shields.io/badge/GitHub-kawaiy-238636?style=for-the-badge&logo=github)](https://github.com/kawaiy)
@@ -47,7 +65,7 @@ Building products at the intersection of **engineering, user experience, and bus
 
 </div>
 
-> **How to read these stats:** The cards above rely on a third-party public-data service and may not include private activity. The language chart reflects accessible repositories, **not** all languages I use or proficiency levels. Private repository names, source code, and commit details are never published here.
+> **How to read these stats:** The overview is computed from GitHub's public contribution calendar (including anonymized private activity if GitHub makes it visible). The two smaller cards below use a third-party public-data service and may exclude private work. Language percentages do not measure proficiency. No private repository names, source code, or commit details are published here.
 
 ### 📈 Contribution activity
 
@@ -73,6 +91,7 @@ Building products at the intersection of **engineering, user experience, and bus
 
 | Visualization | Includes private repositories? | Privacy |
 | --- | --- | --- |
+| Contribution overview | Anonymous private activity only if publicly visible | Public calendar only; no additional token |
 | GitHub stats | Not guaranteed | Third-party public statistics |
 | Top languages | No private-source access | Publicly accessible language data |
 | Animated contribution calendar | Only anonymized calendar activity if enabled | No private repo names, files, or commits |
