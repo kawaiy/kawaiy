@@ -45,7 +45,11 @@ Building products at the intersection of **engineering, user experience, and bus
 
 <div align="center">
 
-![Contribution activity graph](https://github-readme-activity-graph.vercel.app/graph?username=kawaiy&theme=github-compact&hide_border=true&area=true)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kawaiy/kawaiy/output/contribution-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kawaiy/kawaiy/output/contribution-light.svg" />
+  <img alt="GitHub contribution activity (including anonymized private contributions when enabled)" src="https://raw.githubusercontent.com/kawaiy/kawaiy/output/contribution-dark.svg" />
+</picture>
 
 </div>
 
