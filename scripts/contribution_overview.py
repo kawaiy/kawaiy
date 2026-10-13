@@ -27,7 +27,7 @@ class CalendarParser(HTMLParser):
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
         date = a.get("data-date")
-        if date and re.fullmatch(r"\\d{4}-\\d{2}-\\d{2}", date):
+        if date and re.fullmatch(r"\d{4}-\d{2}-\d{2}", date):
             self.days[a.get("id", date)] = (date, a.get("data-count"))
         if tag == "tool-tip":
             self.target = a.get("for")
@@ -52,10 +52,10 @@ def obtain():
     daily = {}
     for key, (date, inline_count) in p.days.items():
         tip = p.tips.get(key, "")
-        match = re.search(r"([\\d,]+)\\s+contributions?\\b", tip, re.I)
+        match = re.search(r"([\d,]+)\s+contributions?\b", tip, re.I)
         if match:
             count = int(match.group(1).replace(",", ""))
-        elif re.search(r"no contributions?\\b", tip, re.I):
+        elif re.search(r"no contributions?\b", tip, re.I):
             count = 0
         elif inline_count is not None and inline_count.isdigit():
             count = int(inline_count)
@@ -114,7 +114,7 @@ def svg(theme, entries):
                   f'<text x="{x+17}" y="{285-h}" fill="{fg}" font-size="11" text-anchor="middle" font-family="Arial,sans-serif">{value}</text>',
                   f'<text x="{x+17}" y="312" fill="{secondary}" font-size="11" text-anchor="middle" font-family="Arial,sans-serif">{esc(month[5:])}</text>']
     parts += [f'<text x="825" y="330" text-anchor="end" fill="{secondary}" font-size="10" font-family="Arial,sans-serif">Anonymous public activity only · {esc(latest.isoformat())}</text>', '</svg>']
-    return "\\n".join(parts)
+    return "\n".join(parts)
 
 def main():
     entries = obtain()
