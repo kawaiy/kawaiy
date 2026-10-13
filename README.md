@@ -14,9 +14,14 @@ Building products at the intersection of **engineering, user experience, and bus
 
 ### 👨‍💻 About me
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/kawaiy/kawaiy/main/assets/about-terminal.svg" width="100%" alt="Animated terminal highlighting software engineering, cloud, AI and indie game development" />
+</div>
+
 - 🧩 Background in **full-stack engineering** and **engineering management**
 - ☁️ Interested in **cloud infrastructure, observability, reliability, and developer experience**
 - 🤖 Exploring **AI / machine learning** and practical applications
+- ✨ Enjoy **vibe coding** — experimenting with AI-assisted development to turn ideas into working prototypes
 - 🎮 Building small web games and experimenting with interactive storytelling
 - 🌏 Based in Japan
 
