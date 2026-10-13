@@ -36,7 +36,9 @@ Building products at the intersection of **engineering, user experience, and bus
 
 ![Cloud and tools](https://skillicons.dev/icons?i=aws,linux,git,github,redis,kubernetes&theme=dark)
 
-![Tencent Cloud](https://img.shields.io/badge/Tencent%20Cloud-Cloud%20%26%20EdgeOne-006EFF?style=for-the-badge)
+<img src="https://raw.githubusercontent.com/kawaiy/kawaiy/main/assets/tencentcloud.svg" alt="Tencent Cloud" width="48" height="48" />
+
+**Tencent Cloud · EdgeOne**
 
 </div>
 
