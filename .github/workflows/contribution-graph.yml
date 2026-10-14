@@ -18,6 +18,11 @@ jobs:
     permissions:
       contents: read
     steps:
+      - name: Check out profile scripts
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+
       - name: Generate contribution activity SVG
         uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
         with:
@@ -26,11 +31,6 @@ jobs:
           outputs: |
             dist/contribution-light.svg?palette=github-light&color_snake=blue
             dist/contribution-dark.svg?palette=github-dark&color_snake=blue
-
-      - name: Check out profile scripts
-        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
-        with:
-          persist-credentials: false
 
       - name: Generate privacy-safe overview (public calendar only)
         run: python3 scripts/contribution_overview.py
