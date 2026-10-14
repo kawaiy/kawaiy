@@ -75,7 +75,6 @@ def svg(theme, entries):
     bg, fg, secondary, accent, panel = COLORS[theme]
     total = sum(v for _, v in entries)
     active = sum(v > 0 for _, v in entries)
-    peak = max(v for _, v in entries)
     longest = 0
     streak = 0
     for _, value in entries:
